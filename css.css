@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    height: 470px;
+    width: 300px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.box2{
+    height: 470px;
+    width: 300px;
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    height: 470px;
+    width: 300px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.icon-sedans{
+    margin-left: 55px;
+    margin-top: 55px;
+}
+.icon-suvs{
+    margin-left: 55px;
+    margin-top: 55px;
+}
+.icon-luxury{
+    margin-left: 55px;
+    margin-top: 55px;
+}
+h1 {
+    text-align: center;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 2.1em;
+    margin-right: 105px;
+    margin-top: 70px;
+}
+p{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: "Lexend Deca",sans-serif;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+}
+.learn-more {
+    display: inline-block; /* makes it behave like a button */
+    padding: 12px 30px;    /* size of button */
+    background-color: white; /* button background */
+    color: hsl(31, 77%, 52%); /* button text color */
+    border-radius: 25px;   /* rounded corners */
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none; /* remove underline */
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+/* Hover effect */
+.learn-more:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.box1 .learn-more {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 .learn-more {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 .learn-more {
+    color: hsl(179, 100%, 13%);
+}
+
+.learn-more:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
